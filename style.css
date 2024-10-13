@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 247, 247);
+}
+
+h1{
+    font-size: 1.8em;
+    color: rgb(43, 199, 199);
+}
+
+section{
+    background-color: #74747430;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#temperatura{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+}
+
+button{
+    background-color: #98d8dd7a;
+    margin-top: 15px;
+    color: #000000;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #98d8dd;
+
+}
+
+#paraFahrenheit{
+    margin-bottom: 10px;
+}
+
+#resultado{
+    font-size: 1.6em;
+    font-weight: bold;
+}

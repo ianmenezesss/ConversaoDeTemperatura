@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+
+        <h1>Conversão de Temperatura</h1>
+
+        <input type="number" id="temperatura" value="0"><br>
+
+        <input type="radio" id="paraFahrenheit" name="unit">
+        <label for="paraFahrenheit">Celcius ➡️ Fahrenheit</label><br>
+
+        <input type="radio" id="paraCelcius" name="unit">
+        <label for="paraCelcius">Fahrenheit ➡️ Celcius</label><br>
+
+        <button type="button" onclick="convert()">Enviar</button>
+        <p id="resultado"></p>
+        
+    </section>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
